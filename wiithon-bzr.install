@@ -1,0 +1,14 @@
+post_install() {
+  post_install
+}
+
+post_upgrade() {
+  post_install
+}
+
+post_remove() {
+  echo "
+  The folder /usr/share/wiithon/recursos, contains cover images,
+  remove it manually if you no longer require it.
+  "
+}
